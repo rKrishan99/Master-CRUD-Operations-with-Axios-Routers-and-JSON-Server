@@ -4,6 +4,7 @@ import Create from "./components/create/Create";
 import Read from "./components/read/Read";
 import Update from "./components/update/Update";
 import Delete from "./components/delete/Delete";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (

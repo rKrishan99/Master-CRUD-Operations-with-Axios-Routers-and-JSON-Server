@@ -1,1 +1,84 @@
-{}
+{
+   "uses" : [
+        {
+            "id": 1,
+            "name": "Leanne Graham",
+            "username": "Bret",
+            "email": "dreat@email.com",
+            "phone": "0758962384",
+            "website": "dreat.com"
+        },
+        {
+            "id": 2,
+            "name": "Ervin Howell",
+            "username": "Antonette",
+            "email": "ervin@example.com",
+            "phone": "0723456789",
+            "website": "ervinhowell.net"
+        },
+        {
+            "id": 3,
+            "name": "Clementine Bauch",
+            "username": "Samantha",
+            "email": "clembauch@example.com",
+            "phone": "0712345678",
+            "website": "clementinebauch.com"
+        },
+        {
+            "id": 4,
+            "name": "Patricia Lebsack",
+            "username": "Karianne",
+            "email": "plebsack@email.com",
+            "phone": "0734567891",
+            "website": "karianne.io"
+        },
+        {
+            "id": 5,
+            "name": "Chelsey Dietrich",
+            "username": "Kamren",
+            "email": "chelsey@example.com",
+            "phone": "0789456123",
+            "website": "dietrich.info"
+        },
+        {
+            "id": 6,
+            "name": "Dennis Schulist",
+            "username": "Leopoldo_Corkery",
+            "email": "dennis@domain.com",
+            "phone": "0765432198",
+            "website": "schulist.org"
+        },
+        {
+            "id": 7,
+            "name": "Kurtis Weissnat",
+            "username": "Elwyn.Skiles",
+            "email": "kurtisw@example.com",
+            "phone": "0790123456",
+            "website": "kurtis.co"
+        },
+        {
+            "id": 8,
+            "name": "Nicholas Runolfsdottir V",
+            "username": "Maxime_Nienow",
+            "email": "nicholas@domain.com",
+            "phone": "0709876543",
+            "website": "nicholas.io"
+        },
+        {
+            "id": 9,
+            "name": "Glenna Reichert",
+            "username": "Delphine",
+            "email": "glenna@example.com",
+            "phone": "0754321987",
+            "website": "reichert.net"
+        },
+        {
+            "id": 10,
+            "name": "Clementina DuBuque",
+            "username": "Moriah.Stanton",
+            "email": "cdubuque@domain.com",
+            "phone": "0721987654",
+            "website": "clementina.biz"
+        }
+    ]
+}    
