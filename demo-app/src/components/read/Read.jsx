@@ -8,7 +8,7 @@ const Read = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/users/" + id)
+      .get('http://localhost:3000/users/' + id)
       .then((response) => setData(response.data))
       .catch((err) => console.log(err));
   }, []);
