@@ -4,7 +4,6 @@ import axios from 'axios';
 
 const Update = () => {
 
-  // const [data, setData] = useState([]);
   const { id } = useParams();
 
   const navigate= useNavigate();
@@ -18,9 +17,9 @@ const Update = () => {
   useEffect(() => {
     axios
       .get('http://localhost:3000/users/' + id)
-      .then((response) => setData(response.data))
+      .then((response) => setValues(response.data))
       .catch((err) => console.log(err));
-  }, []);
+  }, [id]);
 
   const handleUpdate = (event) => {
     event.preventDefault();
@@ -47,7 +46,7 @@ const Update = () => {
                 </div>
                 <div className='mb-2'>
                     <label htmlFor="email">Email</label>
-                    <input type="email" name='emal' className='form-control' placeholder='Enter Email'
+                    <input type="email" name='email' className='form-control' placeholder='Enter Email'
                     value={values.email}
                     onChange={e => setValues({...values, email: e.target.value})}/>
                     
