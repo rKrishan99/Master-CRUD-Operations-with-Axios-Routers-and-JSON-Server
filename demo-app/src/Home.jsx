@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import axios from 'axi'
+import axios from 'axios'
 
 const Home = () => {
 
